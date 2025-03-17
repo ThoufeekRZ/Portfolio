@@ -180,28 +180,7 @@ function animateSkillBars() {
 
 window.addEventListener('scroll', animateSkillBars);
 
-// Form submission
-const contactForm = document.getElementById('contactForm');
 
-contactForm.addEventListener('submit', function(e) {
-  e.preventDefault();
-  
-  // Get form values
-  const name = document.getElementById('name').value;
-  const email = document.getElementById('email').value;
-  const subject = document.getElementById('subject').value;
-  const message = document.getElementById('message').value;
-  
-  // Here you would typically send the form data to a server
-  // For this example, we'll just log it and show a success message
-  console.log('Form submitted:', { name, email, subject, message });
-  
-  // Show success message
-  alert('Thank you for your message! I will get back to you soon.');
-  
-  // Reset form
-  contactForm.reset();
-});
 
 // Smooth scrolling for navigation
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -276,8 +255,8 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "logo (1).png",
         category: "app",
         tags: ["Java", "MySQL", "React", "Python", "re-charts"],
-        link: "#",
-        github: "https://workdrive.zoho.com/folder/ko8hv581ec7c47e5141eda66c66dcd4560e16"
+        link: "#not_hosted",
+        github: "https://github.com/ThoufeekRZ/HireExpert"
       },
       {
         id: 2,
@@ -286,7 +265,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "—Pngtree—instagram icon instagram logo_3584852.png",
         category: "app",
         tags: ["Vanilla JS", "LocalStorage"],
-        link: "https://code.zoho.com/portal/zstechtenkasi/363000000073097#CODE_EDITOR/file:///home/workspace/english.html/Instagram/new_js/loginpage.html",
+        link: "https://instaramiz.netlify.app/loginpage.html",
         github: "https://code.zoho.com/portal/zstechtenkasi/363000000073097#CODE_EDITOR/file:///home/workspace/english.html/Instagram/new_js/loginpage.html"
       },
       {
@@ -296,8 +275,8 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "pngwing.com (16).png",
         category: "app",
         tags: ["Java", "MySQL"],
-        link: "#",
-        github: "#"
+        link: "#Not_hosted",
+        github: "https://github.com/ThoufeekRZ/helpDesk"
       },
       {
         id: 4,
@@ -316,8 +295,8 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "dsa.webp",
         category: "Data Structure",
         tags: ["Java", "Red-Black tree algorithm"],
-        link: "https://workdrive.zoho.com/folder/190ufa3fed35cebcb496f80f6cee4c9cdf2c4",
-        github: "https://workdrive.zoho.com/folder/190ufa3fed35cebcb496f80f6cee4c9cdf2c4"
+        link: "#Not_hosted",
+        github: "https://github.com/ThoufeekRZ/Custom_DSA_implementations"
       },
       {
         id: 6,
@@ -326,8 +305,8 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "dsa.webp",
         category: "Data Structure",
         tags: ["Java", "Linked List"],
-        link: "https://workdrive.zoho.com/folder/190ufa3fed35cebcb496f80f6cee4c9cdf2c4",
-        github: "https://workdrive.zoho.com/folder/190ufa3fed35cebcb496f80f6cee4c9cdf2c4"
+        link: "#Not_hosted",
+        github: "https://github.com/ThoufeekRZ/Custom_DSA_implementations"
       },
       {
         id: 7,
@@ -336,8 +315,8 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "dsa.webp",
         category: "Data Structure",
         tags: ["Java", "Heap", "Queue"],
-        link: "https://workdrive.zoho.com/folder/190ufa3fed35cebcb496f80f6cee4c9cdf2c4",
-        github: "https://workdrive.zoho.com/folder/190ufa3fed35cebcb496f80f6cee4c9cdf2c4"
+        link: "#Not_hosted",
+        github: "https://github.com/ThoufeekRZ/Custom_DSA_implementations"
       },
       {
         id: 8,
@@ -346,8 +325,8 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "dsa.webp",
         category: "Data Structure",
         tags: ["Java", "Buckets of nodes"],
-        link: "https://workdrive.zoho.com/folder/190ufa3fed35cebcb496f80f6cee4c9cdf2c4",
-        github: "https://workdrive.zoho.com/folder/190ufa3fed35cebcb496f80f6cee4c9cdf2c4"
+        link: "#Not_hosted",
+        github: "https://github.com/ThoufeekRZ/Custom_DSA_implementations"
       },
       {
         id: 9,
@@ -356,8 +335,8 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "dsa.webp",
         category: "Data Structure",
         tags: ["Java"],
-        link: "https://workdrive.zoho.com/folder/190ufa3fed35cebcb496f80f6cee4c9cdf2c4",
-        github: "https://workdrive.zoho.com/folder/190ufa3fed35cebcb496f80f6cee4c9cdf2c4"
+        link: "#Not_hosted",
+        github: "https://github.com/ThoufeekRZ/Custom_DSA_implementations"
       },
       {
         id: 10,
@@ -366,8 +345,8 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "stock-vector-spa-single-page-application-acronym-business-concept-background-vector-illustration-concept-1892868430-removebg-preview.png",
         category: "ui",
         tags: ["React", "CSS", "JSON for storing data"],
-        link: "#",
-        github: "https://workdrive.zoho.com/file/190uf5e172eca59ef4093aff2ca703aed1688"
+        link: "#Not_hosted",
+        github: "https://github.com/ThoufeekRZ/react_social_media_netlify"
       },
       {
         id: 11,
@@ -376,8 +355,8 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "stock-vector-spa-single-page-application-acronym-business-concept-background-vector-illustration-concept-1892868430-removebg-preview.png",
         category: "ui",
         tags: ["JavaScript", "HTML", "CSS"],
-        link: "#",
-        github: "#"
+        link: "https://thoufeeka-9984-8443.zcodeusers.in/js/DOM/Assignment024.html",
+        github: "https://code.zoho.com/portal/zstechtenkasi/363000000073097#CODE_EDITOR/file:///home/workspace/js/DOM/Assignment023.html"
       },
       {
         id: 12,
@@ -386,8 +365,8 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "stock-vector-spa-single-page-application-acronym-business-concept-background-vector-illustration-concept-1892868430-removebg-preview.png",
         category: "ui",
         tags: ["JavaScript", "HTML", "CSS"],
-        link: "#",
-        github: "#"
+        link: "https://thoufeeka-9984-8443.zcodeusers.in/js/DOM/Assignment023.html",
+        github: "https://code.zoho.com/portal/zstechtenkasi/363000000073097#CODE_EDITOR/file:///home/workspace/js/DOM/Assignment023.html"
       },
       {
         id: 13,
@@ -397,14 +376,14 @@ document.addEventListener('DOMContentLoaded', function() {
         category: "ui",
         tags: ["React", "CSS", "JSON for storing data"],
         link: "#",
-        github: "https://workdrive.zoho.com/file/190uf5e172eca59ef4093aff2ca703aed1688"
+        github: "https://github.com/ThoufeekRZ/todo-list"
       },
       {
         id: 14,
         title: "Mars War",
         description: "A project which I created in Scratch, used many logics, conditions, and looping.",
         image: "Screenshot from 2025-03-14 17-25-17.png",
-        category: "all",
+        category: "ui",
         tags: ["Scratch"],
         link: "https://scratch.mit.edu/projects/1040855612/",
         github: "https://scratch.mit.edu/projects/1040855612/editor/"
@@ -418,56 +397,47 @@ document.addEventListener('DOMContentLoaded', function() {
         id: 1,
         title: "Calculator",
         description: "A good calculator.",
-        image: "https://placehold.co/300x200/lightblue/white?text=Budget+Tracker",
-        link: "#",
-        github: "#",
+        image: "https://placehold.co/300x200/lightblue/white?text=CALCULATOR",
+        link: "https://thoufeeka-9984-8443.zcodeusers.in/js/DOM/Assignment021.html",
+        github: "https://code.zoho.com/portal/zstechtenkasi/363000000073097#CODE_EDITOR/file:///home/workspace/js/DOM/Assignment021.html",
         tags: ["JavaScript","Html","Css"],
       },
       {
         id: 2,
-        title: "Movie Database",
-        description: "A movie database application using the TMDB API.",
-        image: "https://placehold.co/300x200/darkblue/white?text=Movie+DB",
-        link: "#",
-        github: "#",
-        tags: ["React", "API", "CSS"],
+        title: "Ui+",
+        description: "A page created only to extend my skills in ui",
+        image: "https://placehold.co/300x200/darkblue/white?text=UI",
+        link: "https://thoufeeka-9984-8443.zcodeusers.in/Assignment20/",
+        github: "https://code.zoho.com/portal/zstechtenkasi/363000000073097#CODE_EDITOR/file:///home/workspace/Assignment20",
+        tags: ["JavaScript", "Html", "CSS"],
       },
       {
         id: 3,
-        title: "Markdown Editor",
+        title: "Type Master",
         description: "A simple markdown editor with preview functionality.",
-        image: "https://placehold.co/300x200/purple/white?text=Markdown+Editor",
-        link: "#",
-        github: "#",
-        tags: ["JavaScript", "Markdown"],
+        image: "https://placehold.co/300x200/purple/white?text=TypeMaster",
+        link: "https://thoufeeka-9984-8443.zcodeusers.in/js/DOM/Assignment025.html",
+        github: "https://code.zoho.com/portal/zstechtenkasi/363000000073097#CODE_EDITOR/file:///home/workspace/js/DOM/Assignment025.html",
+        tags: ["JavaScript", "Html","Css"],
       },
       {
         id: 4,
-        title: "Chat Application",
-        description: "A real-time chat application with user authentication.",
-        image: "https://placehold.co/300x200/green/white?text=Chat+App",
-        link: "#",
-        github: "#",
-        tags: ["React", "Firebase", "CSS"],
+        title: "Help the key",
+        description: "A game where a key is struggling to escape the board, help him to escape",
+        image: "https://placehold.co/300x200/green/white?text=Help+The+Key",
+        link: "https://scratch.mit.edu/projects/10384383",
+        github: "https://scratch.mit.edu/projects/1038438386/editor/",
+        tags: ["Scratch"],
       },
       {
         id: 5,
-        title: "Fitness Tracker",
+        title: "Catch the apple",
         description: "An application to track workouts and fitness progress.",
-        image: "https://placehold.co/300x200/red/white?text=Fitness+Tracker",
-        link: "#",
-        github: "#",
-        tags: ["JavaScript", "LocalStorage", "Chart.js"],
-      },
-      {
-        id: 6,
-        title: "Note Taking App",
-        description: "A simple note taking application with tags and search.",
-        image: "https://placehold.co/300x200/orange/white?text=Notes+App",
-        link: "#",
-        github: "#",
-        tags: ["React", "LocalStorage"],
-      },
+        image: "https://placehold.co/300x200/red/white?text=Catch+the+apple",
+        link: "https://scratch.mit.edu/projects/1034237224/",
+        github: "https://scratch.mit.edu/projects/1034237224/editor/",
+        tags: ["Scratch"]
+      }
     ];
     
     // Initialize the page
@@ -613,7 +583,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <img src="${project.image}" alt="${project.title}" onerror="this.src='https://placehold.co/300x200'">
           <div class="carousel-overlay">
             <div class="carousel-links">
-              <a href="${project.link}" class="carousel-link" aria-label="View project">
+              <a href="${project.link}" target="_blank" class="carousel-link" aria-label="View project">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round">
@@ -622,7 +592,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                         <line x1="10" y1="14" x2="21" y2="3"></line>
                                     </svg>
               </a>
-              <a href="${project.github}" class="carousel-link" aria-label="View code on GitHub">
+              <a href="${project.github}" target="_blank" class="carousel-link" aria-label="View code on GitHub">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round">
