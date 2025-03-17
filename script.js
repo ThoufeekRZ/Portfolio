@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "logo (1).png",
         category: "app",
         tags: ["Java", "MySQL", "React", "Python", "re-charts"],
-        link: "#not_hosted",
+        link: "#",
         github: "https://github.com/ThoufeekRZ/HireExpert"
       },
       {
@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "pngwing.com (16).png",
         category: "app",
         tags: ["Java", "MySQL"],
-        link: "#Not_hosted",
+        link: "#",
         github: "https://github.com/ThoufeekRZ/helpDesk"
       },
       {
@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "dsa.webp",
         category: "Data Structure",
         tags: ["Java", "Red-Black tree algorithm"],
-        link: "#Not_hosted",
+        link: "#",
         github: "https://github.com/ThoufeekRZ/Custom_DSA_implementations"
       },
       {
@@ -305,7 +305,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "dsa.webp",
         category: "Data Structure",
         tags: ["Java", "Linked List"],
-        link: "#Not_hosted",
+        link: "#",
         github: "https://github.com/ThoufeekRZ/Custom_DSA_implementations"
       },
       {
@@ -315,7 +315,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "dsa.webp",
         category: "Data Structure",
         tags: ["Java", "Heap", "Queue"],
-        link: "#Not_hosted",
+        link: "#",
         github: "https://github.com/ThoufeekRZ/Custom_DSA_implementations"
       },
       {
@@ -325,7 +325,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "dsa.webp",
         category: "Data Structure",
         tags: ["Java", "Buckets of nodes"],
-        link: "#Not_hosted",
+        link: "#",
         github: "https://github.com/ThoufeekRZ/Custom_DSA_implementations"
       },
       {
@@ -335,7 +335,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "dsa.webp",
         category: "Data Structure",
         tags: ["Java"],
-        link: "#Not_hosted",
+        link: "#",
         github: "https://github.com/ThoufeekRZ/Custom_DSA_implementations"
       },
       {
@@ -345,7 +345,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "stock-vector-spa-single-page-application-acronym-business-concept-background-vector-illustration-concept-1892868430-removebg-preview.png",
         category: "ui",
         tags: ["React", "CSS", "JSON for storing data"],
-        link: "#Not_hosted",
+        link: "#",
         github: "https://github.com/ThoufeekRZ/react_social_media_netlify"
       },
       {
@@ -518,15 +518,16 @@ document.addEventListener('DOMContentLoaded', function() {
             <img src="${project.image}" alt="${project.title}" onerror="this.src='https://placehold.co/600x400'">
             <div class="project-overlay">
               <div class="project-links">
-                <a href="${project.link}" target="_blank" class="project-link">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round">
-                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                        <polyline points="15 3 21 3 21 9"></polyline>
-                                        <line x1="10" y1="14" x2="21" y2="3"></line>
-                                    </svg>
-                </a>
+              ${project.link !== "#" ? `<a href="${project.link}" target="_blank" class="project-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>` : ""}
+              
                 <a href="${project.github}" target="_blank" class="project-link">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
