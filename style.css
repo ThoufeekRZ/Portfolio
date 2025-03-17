@@ -504,7 +504,7 @@
     justify-content: center;
     align-items: center;
     flex: 1;
-    min-width: 1000px;
+    min-width: 800px;
   }
   
   .stat-item {
@@ -512,8 +512,11 @@
     border-radius: 15px;
     padding: 30px;
     box-shadow: var(--card-shadow);
-    flex: 1;
-    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
@@ -1145,7 +1148,6 @@
 
     .about-stats{
       display: flex;
-      flex-direction: column;
       flex-wrap: wrap;
     }
   }
