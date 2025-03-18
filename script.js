@@ -360,7 +360,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       {
         id: 12,
-        title: "Rock Paper Scissor",
+        title: "Rock Paper Scissors",
         description: "A classic game of Rock, Paper, Scissors.",
         image: "stock-vector-spa-single-page-application-acronym-business-concept-background-vector-illustration-concept-1892868430-removebg-preview.png",
         category: "ui",
